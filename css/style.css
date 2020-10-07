@@ -60,6 +60,31 @@ header a {
   margin: 0 0 0 16px;
 }
 
+.face {
+  position: relative;
+}
+
+.iris {
+  position: absolute;
+  top: 23px;
+  left: 11px;
+}
+
+.iris-right {
+  left: 49px;
+}
+
+.iris div {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #052837;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   font-size: 24px;
   font-weight: 900;

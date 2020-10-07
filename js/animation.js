@@ -30,11 +30,19 @@ const fadeIn = () => {
 fadeIn();
 
 // on scroll, run fadeIn
-document.addEventListener('scroll', function () {
-  fadeIn();
-});
+document.addEventListener(
+  'scroll',
+  function () {
+    fadeIn();
+  },
+  false
+);
 
 // on browser resize, run fadeIn
-window.addEventListener('resize', function () {
-  fadeIn();
-});
+window.addEventListener(
+  'resize',
+  function () {
+    fadeIn();
+  },
+  false
+);
